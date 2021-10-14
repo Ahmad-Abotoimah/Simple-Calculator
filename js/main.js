@@ -40,4 +40,6 @@ function calc(){
 }
 clear.onclick= function clearf(){
     box.value= "0";
+    values.prev=null;
+    values.new=null;
 }
