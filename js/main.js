@@ -27,7 +27,7 @@ function calc(){
     }else if (opertype==='*'){
         box.value= values.prev*values.new
     }else if (opertype==='/'){
-        box.value= values.prevvalues.new
+        box.value= values.prev/values.new
     }
 }
 }
